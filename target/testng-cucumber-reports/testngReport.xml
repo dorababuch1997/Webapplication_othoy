@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="2" passed="0" skipped="0" total="2">
+    <suite duration-ms="872" name="io.cucumber.core.plugin.TestNGFormatter">
+        <test duration-ms="872" name="io.cucumber.core.plugin.TestNGFormatter">
+            <class name="Facebook login functionality">
+                <test-method duration-ms="30" finished-at="2023-06-13T06:24:57.306310800Z" name="Verify successful login" started-at="2023-06-13T06:24:57.206583900Z" status="FAIL">
+                    <exception class="java.lang.NullPointerException">
+                        <message>
+                            <![CDATA[Given Open the url "https://www.facebook.com/"..............................failed
+When Enter valid "dorababu5424@gmail.com" and "Dorababu1234"................skipped
+And click on the login button...............................................skipped
+Then Verify that the user is successfully logged in and redirected to the home page.skipped
+]]>
+                        </message>
+                        <full-stacktrace>
+                            <![CDATA[java.lang.NullPointerException
+	at Steps_definitations.LoginSteps.open_the_url(LoginSteps.java:23)
+	at ✽.Open the url "https://www.facebook.com/"(file:///C:/Users/SVC/Downloads/automationfolder/WebApplicationAutomation/src/test/resources/Features/Webapplication_FacebookLogin.feature:6)
+]]>
+                        </full-stacktrace>
+                    </exception>
+                </test-method>
+                <test-method duration-ms="2" finished-at="2023-06-13T06:24:57.377123100Z" name="Verify Unsuccessful login" started-at="2023-06-13T06:24:57.366267800Z" status="FAIL">
+                    <exception class="java.lang.NullPointerException">
+                        <message>
+                            <![CDATA[Given Open the url "https://www.facebook.com/"..............................failed
+When Enter valid "dorababu5424@gmail.com" and "Dorababu1234"................skipped
+And click on the login button...............................................skipped
+Then Verify that an error message is displayed indicating that the login was unsuccessful..skipped
+]]>
+                        </message>
+                        <full-stacktrace>
+                            <![CDATA[java.lang.NullPointerException
+	at Steps_definitations.LoginSteps.open_the_url(LoginSteps.java:23)
+	at ✽.Open the url "https://www.facebook.com/"(file:///C:/Users/SVC/Downloads/automationfolder/WebApplicationAutomation/src/test/resources/Features/Webapplication_FacebookLogin.feature:16)
+]]>
+                        </full-stacktrace>
+                    </exception>
+                </test-method>
+            </class>
+        </test>
+    </suite>
+</testng-results>

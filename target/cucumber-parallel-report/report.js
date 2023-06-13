@@ -1,0 +1,4 @@
+$(document).ready(function() {
+CucumberHTML.timelineItems.pushArray([{"id":"eb77d17e-07d9-41c6-9cb6-19d7072ce4fb","feature":"Facebook login functionality","scenario":"Verify Unsuccessful login","start":1686637497366,"group":1,"content":"","tags":"@bbd_ui,","end":1686637497377,"className":"failed"},{"id":"13238ad1-a593-4856-9f87-51f102c46b07","feature":"Facebook login functionality","scenario":"Verify successful login","start":1686637497206,"group":1,"content":"","tags":"@bbd_ui,","end":1686637497306,"className":"failed"}]);
+CucumberHTML.timelineGroups.pushArray([{"id":1,"content":"Thread[main,5,main]"}]);
+});
