@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-13T11:54:54 IST" name="Suite" finished-at="2023-06-13T11:55:00 IST" duration-ms="5801">
+  <suite started-at="2023-06-13T21:47:20 IST" name="Suite" finished-at="2023-06-13T21:47:47 IST" duration-ms="27945">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberIndex.CucumberRunner@2cb4893b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-06-13T11:54:54 IST" name="Test" finished-at="2023-06-13T11:55:00 IST" duration-ms="5801">
+    <test started-at="2023-06-13T21:47:20 IST" name="Test" finished-at="2023-06-13T21:47:47 IST" duration-ms="27945">
       <class name="CucumberIndex.CucumberRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:CucumberIndex.CucumberRunner@2cb4893b]" started-at="2023-06-13T11:54:54 IST" name="setUpClass" finished-at="2023-06-13T11:54:56 IST" duration-ms="2036" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:CucumberIndex.CucumberRunner@2cb4893b]" started-at="2023-06-13T21:47:20 IST" name="setUpClass" finished-at="2023-06-13T21:47:21 IST" duration-ms="1521" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@1de0a46c]]>
+                <![CDATA[org.testng.TestRunner@4e3f2908]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberIndex.CucumberRunner@2cb4893b]" started-at="2023-06-13T11:54:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-13T11:54:57 IST" duration-ms="522" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberIndex.CucumberRunner@2cb4893b]" started-at="2023-06-13T21:47:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-13T21:47:35 IST" duration-ms="14001" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -37,15 +37,15 @@
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at Steps_definitations.LoginSteps.open_the_url(LoginSteps.java:23)
-at ✽.Open the url "https://www.facebook.com/"(file:///C:/Users/SVC/Downloads/automationfolder/WebApplicationAutomation/src/test/resources/Features/Webapplication_FacebookLogin.feature:6)
+at Steps_definitations.LoginSteps.enter_valid_and(LoginSteps.java:32)
+at ✽.Enter valid "dorababu5424@gmail.com" and "Dorababu1234".(file:///C:/Users/SVC/Downloads/automationfolder/WebApplicationAutomation/src/test/resources/Features/Webapplication_FacebookLogin.feature:7)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberIndex.CucumberRunner@2cb4893b]" started-at="2023-06-13T11:54:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-13T11:54:57 IST" duration-ms="50" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberIndex.CucumberRunner@2cb4893b]" started-at="2023-06-13T21:47:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-06-13T21:47:44 IST" duration-ms="8610" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -61,15 +61,15 @@ at ✽.Open the url "https://www.facebook.com/"(file:///C:/Users/SVC/Downloads/a
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-at Steps_definitations.LoginSteps.open_the_url(LoginSteps.java:23)
-at ✽.Open the url "https://www.facebook.com/"(file:///C:/Users/SVC/Downloads/automationfolder/WebApplicationAutomation/src/test/resources/Features/Webapplication_FacebookLogin.feature:16)
+at Steps_definitations.LoginSteps.enter_valid_and(LoginSteps.java:32)
+at ✽.Enter valid "dorababu5424@gmail.com" and "Dorababu1234".(file:///C:/Users/SVC/Downloads/automationfolder/WebApplicationAutomation/src/test/resources/Features/Webapplication_FacebookLogin.feature:17)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CucumberIndex.CucumberRunner@2cb4893b]" started-at="2023-06-13T11:54:57 IST" name="tearDownClass" finished-at="2023-06-13T11:55:00 IST" duration-ms="3002" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CucumberIndex.CucumberRunner@2cb4893b]" started-at="2023-06-13T21:47:44 IST" name="tearDownClass" finished-at="2023-06-13T21:47:47 IST" duration-ms="3553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

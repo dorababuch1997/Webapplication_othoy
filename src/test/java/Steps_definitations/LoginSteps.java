@@ -1,11 +1,14 @@
 package Steps_definitations;
 
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
 import Application_Pages.LoginPages;
 import Utilites.UtilsManager;
 import io.cucumber.java.en.*;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LoginSteps {
 	
@@ -13,15 +16,14 @@ public class LoginSteps {
 	
 	public LoginPages loginPages;
 	
-	public LoginSteps(UtilsManager manager) {
-		this.manager = manager;
-	}
+	public static WebDriver driver;
 	
 	@Given("Open the url {string}")
 	public void open_the_url(String string) {
-	    
-		manager.seleniumUtils.driver.get(string);
-		
+	    WebDriverManager.chromedriver().setup();
+	    driver = new ChromeDriver();
+		driver.get(string);
+		driver.manage().window().maximize();
 	}
 
 	@When("Enter valid {string} and {string}.")

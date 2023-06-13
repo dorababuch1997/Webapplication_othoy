@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.872">
-    <testcase classname="Facebook login functionality" name="Verify successful login" time="0.099">
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="22.902">
+    <testcase classname="Facebook login functionality" name="Verify successful login" time="13.653">
         <failure message="" type="java.lang.NullPointerException">
-            <![CDATA[Given Open the url "https://www.facebook.com/"..............................failed
-When Enter valid "dorababu5424@gmail.com" and "Dorababu1234"................skipped
+            <![CDATA[Given Open the url "https://www.facebook.com/"..............................passed
+When Enter valid "dorababu5424@gmail.com" and "Dorababu1234"................failed
 And click on the login button...............................................skipped
 Then Verify that the user is successfully logged in and redirected to the home page.skipped
 
 StackTrace:
 java.lang.NullPointerException
-	at Steps_definitations.LoginSteps.open_the_url(LoginSteps.java:23)
-	at ✽.Open the url "https://www.facebook.com/"(file:///C:/Users/SVC/Downloads/automationfolder/WebApplicationAutomation/src/test/resources/Features/Webapplication_FacebookLogin.feature:6)
+	at Steps_definitations.LoginSteps.enter_valid_and(LoginSteps.java:32)
+	at ✽.Enter valid "dorababu5424@gmail.com" and "Dorababu1234".(file:///C:/Users/SVC/Downloads/automationfolder/WebApplicationAutomation/src/test/resources/Features/Webapplication_FacebookLogin.feature:7)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="Facebook login functionality" name="Verify Unsuccessful login" time="0.01">
+    <testcase classname="Facebook login functionality" name="Verify Unsuccessful login" time="8.44">
         <failure message="" type="java.lang.NullPointerException">
-            <![CDATA[Given Open the url "https://www.facebook.com/"..............................failed
-When Enter valid "dorababu5424@gmail.com" and "Dorababu1234"................skipped
+            <![CDATA[Given Open the url "https://www.facebook.com/"..............................passed
+When Enter valid "dorababu5424@gmail.com" and "Dorababu1234"................failed
 And click on the login button...............................................skipped
 Then Verify that an error message is displayed indicating that the login was unsuccessful..skipped
 
 StackTrace:
 java.lang.NullPointerException
-	at Steps_definitations.LoginSteps.open_the_url(LoginSteps.java:23)
-	at ✽.Open the url "https://www.facebook.com/"(file:///C:/Users/SVC/Downloads/automationfolder/WebApplicationAutomation/src/test/resources/Features/Webapplication_FacebookLogin.feature:16)
+	at Steps_definitations.LoginSteps.enter_valid_and(LoginSteps.java:32)
+	at ✽.Enter valid "dorababu5424@gmail.com" and "Dorababu1234".(file:///C:/Users/SVC/Downloads/automationfolder/WebApplicationAutomation/src/test/resources/Features/Webapplication_FacebookLogin.feature:17)
 ]]>
         </failure>
     </testcase>

@@ -3,10 +3,10 @@
 Feature: Facebook login functionality
 
   Scenario Outline: Verify successful login
-    Given Open the url "https://www.facebook.com/"
-    When Enter valid "<username>" and "<password>".
+    Given Open the url "https://www.facebook.com/"  
+    When Enter valid "<username>" and "<password>". 
     And click on the login button
-    Then Verify that the user is successfully logged in and redirected to the home page
+    Then Verify that the user is successfully logged in and redirected to the home page 
 
     Examples: 
       | username               | password     |

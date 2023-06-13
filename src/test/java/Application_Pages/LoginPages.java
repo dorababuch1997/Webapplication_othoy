@@ -37,25 +37,8 @@ public class LoginPages {
 		email.sendKeys(password);
 	}
 	
-	public void Click_On_LoginButton() {
-		
+	public void Click_On_LoginButton() {	
 		loginbutton.click();
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 }

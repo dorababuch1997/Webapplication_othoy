@@ -1,4 +1,4 @@
 $(document).ready(function() {
-CucumberHTML.timelineItems.pushArray([{"id":"eb77d17e-07d9-41c6-9cb6-19d7072ce4fb","feature":"Facebook login functionality","scenario":"Verify Unsuccessful login","start":1686637497366,"group":1,"content":"","tags":"@bbd_ui,","end":1686637497377,"className":"failed"},{"id":"13238ad1-a593-4856-9f87-51f102c46b07","feature":"Facebook login functionality","scenario":"Verify successful login","start":1686637497206,"group":1,"content":"","tags":"@bbd_ui,","end":1686637497306,"className":"failed"}]);
+CucumberHTML.timelineItems.pushArray([{"id":"4f91e838-a783-425e-ba02-f1be5f7f695d","feature":"Facebook login functionality","scenario":"Verify successful login","start":1686673042089,"group":1,"content":"","tags":"@bbd_ui,","end":1686673055743,"className":"failed"},{"id":"ea8345b3-7b17-4843-a191-da5ae8ebfb91","feature":"Facebook login functionality","scenario":"Verify Unsuccessful login","start":1686673055984,"group":1,"content":"","tags":"@bbd_ui,","end":1686673064425,"className":"failed"}]);
 CucumberHTML.timelineGroups.pushArray([{"id":1,"content":"Thread[main,5,main]"}]);
 });
